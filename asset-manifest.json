@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.049f3093.css",
+    "main.js": "/portfolio-react/static/js/main.d8edd3bd.js",
+    "static/js/787.7da95b79.chunk.js": "/portfolio-react/static/js/787.7da95b79.chunk.js",
+    "static/media/avatar.png": "/portfolio-react/static/media/avatar.85a876cf9174aa311a54.png",
+    "static/media/Vinay-Sulake.pdf": "/portfolio-react/static/media/Vinay-Sulake.7f757f4956f3519954f9.pdf",
+    "index.html": "/portfolio-react/index.html",
+    "main.049f3093.css.map": "/portfolio-react/static/css/main.049f3093.css.map",
+    "main.d8edd3bd.js.map": "/portfolio-react/static/js/main.d8edd3bd.js.map",
+    "787.7da95b79.chunk.js.map": "/portfolio-react/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.049f3093.css",
+    "static/js/main.d8edd3bd.js"
+  ]
+}
