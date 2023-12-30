@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.submain-education, .project, .skills {
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.education-heading, .project-content h1, .skill-content h1 {
+    background-color: black;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 10px; */
+
+}
+
+.education-content, .project-content, .skill-content {
+    width: 100%; /* Set width to 100% for both larger and smaller screens */
+    max-width: 400px;
+    color: white;
+    background-color: black;
+    border: 2px solid yellow;
+    padding: 20px;
+    box-shadow: 10px 10px 5px yellow;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.education-content h1, .project-content h1, .skill-content h1 {
+    color: yellow;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.education-content p, .project-content p, .skill-content p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.education-content:hover, .project-content:hover, .skill-content:hover {
+    color: yellow;
+    transform: translateY(-5px);
+}
+
+.education-content:hover h1, .project-content:hover h1, .skill-content:hover h1 {
+    color: white;
+}
+
+.project-content a {
+    color: yellow;
+}
+.project-content a:hover {
+    color: rgba(255, 255, 0, 0.801);
+}

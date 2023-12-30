@@ -1,0 +1,56 @@
+.main2 {
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row; /* Ensure it's a row layout */
+    align-items: center; /* Center items vertically */
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .text {
+    font-size: 30px;
+    color: white;
+    margin-right: 30px;
+  }
+  
+  .text2 {
+    color: yellow;
+  }
+  
+  #prince {
+    margin-top: 20px;
+  }
+  
+  .pic {
+    margin-top: 150px;
+  }
+  
+  .pic img {
+    max-width: 100%;
+    transition: opacity 0.5s;
+  }
+  
+  .pic img.overlay {
+    opacity: 0.5;
+  }
+  
+  @media (max-width: 768px) {
+    .text {
+      font-size: 20px;
+      margin-right: 18px;
+      margin-left:30px;
+    }
+  
+    .pic {
+      margin-top: 50px;
+    }
+  }
+  

@@ -1,0 +1,23 @@
+.intro-container {
+    background-color: black;
+    padding: 50px 20px; /* Adjust padding for spacing */
+    text-align: center; /* Center text content */
+    padding-top: 200px;
+    padding-bottom: 200px;
+   
+  }
+  
+  .intro-content {
+    color: yellow;
+    font-size: 40px;
+    margin-bottom: 20px; /* Adjust margin for spacing */
+  }
+  
+  .intro-text {
+    color: white;
+    font-size: 20px;
+    max-width: 800px; /* Adjust the maximum width for responsiveness */
+    margin: 0 auto; /* Center the text block */
+    line-height: 1.8;
+  }
+  

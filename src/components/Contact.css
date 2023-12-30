@@ -1,0 +1,190 @@
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: black;
+    color: white;
+    /* padding-left: 200px; */
+  }
+  
+  .contact-info,
+  .contact-form {
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+  }
+  
+  .heading {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .subheading {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .email {
+    text-decoration: none;
+    color: yellow;
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: block;
+    max-width: 100%; 
+    overflow: hidden; 
+    word-wrap: break-word;
+  }
+  
+  .email:hover {
+    color: rgba(255, 255, 0, 0.5);
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-link {
+    text-decoration: none;
+    color: yellow;
+    font-size: 25px;
+  }
+  
+  .social-link:hover {
+    color: rgba(255, 255, 0, 0.5);
+  }
+  
+  .contact-form {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+  }
+  
+  .word {
+    margin-bottom: 10px;
+    
+  }
+  .word0{
+    color: yellow;
+  }
+  .word0 input,
+  .word1 input {
+    height: 40px;
+    width: 350px;
+    font-size: 16px;
+    padding-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .word1 input:hover {
+    background-color: #ffd93c;
+  }
+  
+  .word0 input:hover {
+    background-color: rgba(245, 245, 245, 0.899);
+  }
+  
+  .word1 input {
+    background-color: yellow;
+  }
+  
+  .word2 input {
+    box-sizing: border-box; 
+    word-wrap: break-word;
+    overflow: hidden;
+    width: 360px; 
+    height: 40px; 
+    border-radius: 5px;
+    cursor: pointer;
+  }
+    
+  .word2 input:hover {
+    background-color: rgba(245, 245, 245, 0.899);
+  }
+  
+  .word2 {
+    color: yellow;
+  }
+  
+  .word3 {
+    /* display: flex; */
+
+    align-items: center;
+    padding-top: 20px;
+    font-size: 16px;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .word3 h3 {
+    /* color: yellow; */
+    margin-bottom: 0;
+    margin-right: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .word3 input {
+    margin-bottom: 0;
+    width: 19px;
+    height: 18px;
+    color: white;
+    appearance: none;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  .word3 label{
+    margin-right: 10px;
+  }
+  
+  .word3 input:checked {
+    background-color: yellow;
+    border: 1px solid yellow;
+  }
+  
+  .word4 {
+    color: yellow;
+  }
+  
+  textarea {
+    width: 350px;
+    height: 100px;
+    font-size: 16px;
+    padding-left: 10px;
+    border-radius: 5px;
+    padding-top: 5px;
+    cursor: pointer;
+  }
+  
+  textarea:hover {
+    background-color: rgba(245, 245, 245, 0.899);
+  }
+  
+  #submit {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: yellow;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  #submit:hover {
+    background-color: #ffd93c;
+    color: white;
+  }
+  .common{
+    opacity: 0.7;
+  }
+  

@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensure consistent box sizing */
+  }
+  
+  .main {
+    position: sticky;
+    top: 0;
+    height: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    font-size: 20px;
+    color: yellow;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .item ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0; /* Reset margin to remove the gap */
+    padding: 0; /* Reset padding to remove any additional spacing */
+  }
+  
+  .item a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 8px;
+  }
+  
+  .item a:hover {
+    background-color: yellow;
+    color: black;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .icon {
+    font-size: 16px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .social {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .close-icon {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .main {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+      width: 100vw;
+    }
+  
+    .logo {
+      margin-bottom: 20px;
+    }
+  
+    .item {
+      width: 100%;
+      position: relative;
+    }
+  
+    .item ul {
+      display: none;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      position: fixed;
+      top: 70px;
+      left: 0;
+      background-color: black;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+  
+    .main.show-menu .item ul {
+      display: flex;
+    }
+  
+    .icon {
+      display: block;
+    }
+  
+    .item.show-menu {
+      position: fixed;
+      top: 70px;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      background-color: black;
+      padding-bottom: 10px;
+    }
+  
+    .item.show-menu ul {
+      flex-direction: column;
+      align-items: center;
+      margin: 0; /* Reset margin to remove the gap */
+    }
+  
+    .item.show-menu .social {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 20px;
+    }
+  }
+  
